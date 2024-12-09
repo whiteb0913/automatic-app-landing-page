@@ -1,0 +1,124 @@
+#page title
+page_title                                : 龟小记                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 1447922692                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             : https://apps.apple.com/us/app/%E8%B6%A3%E6%92%AD%E5%AE%A2-%E5%8F%91%E7%8E%B0%E6%9C%89%E8%B6%A3/id1447922692                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                         # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : 龟小记                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : 乌龟生长记录APP，帮助您更好地照顾您的乌龟
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : TurtleNote
+your_link                                 : https://turtlenote.cn
+your_city                                 :
+email_address                             : support@turtlenote.cn
+facebook_username                         :
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : 
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : 饲养日记
+    description                           : 记录乌龟的饮食、活动、生长等日常数据，帮助您更好地了解乌龟的生活习性 branch. Voilá!
+    fontawesome_icon_name                 : magic
+    
+  - title                                 : 健康监测
+    description                           : 定期记录体重、大小、活动量等数据，及时发现健康问题
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : 饲养提醒
+    description                           : 智能提醒喂食、换水、晒背、服药等重要事项，不错过任何关键时刻
+    fontawesome_icon_name                 : play-circle
+
+  - title                                 : 专业指导
+    description                           : 提供科学的饲养知识库，包含各种龟种的专业饲养建议
+    fontawesome_icon_name                 : sync
+
+  - title                                 : 病症诊断
+    description                           : 常见疾病图谱对照，帮助您初步判断乌龟的健康状况
+    fontawesome_icon_name                 : adjust
+  
+  - title                                 : 数据统计
+    description                           : 通过图表直观展示乌龟的生长趋势、饮食规律和活动规律
+    fontawesome_icon_name                 : star
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               :                  # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
