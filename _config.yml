@@ -5,7 +5,7 @@ page_title                                : 龟小记                           
 ios_app_id                                : 6738842562
                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-appstore_link                             : https://apps.apple.com/us/app/%E8%B6%A3%E6%92%AD%E5%AE%A2-%E5%8F%91%E7%8E%B0%E6%9C%89%E8%B6%A3/id6738842562                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/cn/app/%E9%BE%9F%E5%B0%8F%E8%AE%B0/id6738842562                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                         # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
@@ -17,7 +17,8 @@ app_description                           : 乌龟生长记录APP，帮助您更
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-
+# Screenshots
+your_screenshot                           : assets/screenshot/WechatIMG1.jpg
 
 # Information About Yourself
 your_name                                 : TurtleNote
@@ -36,7 +37,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : 饲养日记
-    description                           : 记录乌龟的饮食、活动、生长等日常数据，帮助您更好地了解乌龟的生活习性 branch. Voilá!
+    description                           : 记录乌龟的饮食、活动、生长等日常数据，帮助您更好地了解乌龟的生活习性
     fontawesome_icon_name                 : magic
     
   - title                                 : 健康监测
