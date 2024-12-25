@@ -72,7 +72,7 @@ include_in_header: false
 ## 联系我们
 
 如果您对本隐私政策有任何问题或建议，请通过以下方式联系我们：
-- 电子邮件：[contact@tortoisehouse.com]
+- 电子邮件：[support@turtlenote.cn]
 - 应用内反馈功能
 
 最后更新时间：2024年12月
